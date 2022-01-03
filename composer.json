@@ -1,0 +1,43 @@
+{
+    "name": "lloadout/laravel-docs",
+    "description": "A pdf version of the Laravel documentation",
+    "autoload": {
+        "psr-4": {
+            "Lloadout\\LaravelDocs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dieter Coopman",
+            "email": "dieter@deltasolutions.be"
+        }
+    ],
+    "scripts": {
+        "create": [
+            "cp -R vendor/laravel/docs/* content",
+            "mv content/documentation.md content/0_documentation.md",
+            "cd content && sed 's/\\/docs\\/{{version}}\\//#/g' *.md  > book",
+            "cd content && rm *.md",
+            "cd content && mv book book.md",
+            "ibis build"
+        ]
+    },
+    "repositories":[
+        {
+            "type": "package",
+            "package": {
+                "name": "laravel/docs",
+                "version": "8.0",
+                "source": {
+                    "url": "https://github.com/laravel/docs.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
+    "require": {
+        "laravel/docs": "*",
+        "themsaid/ibis": "^0.1.4"
+    }
+}
