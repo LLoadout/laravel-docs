@@ -13,13 +13,18 @@
         }
     ],
     "scripts": {
-        "create": [
+        "makebook-starter": [
             "cp -R vendor/laravel/docs/* content",
-            "mv content/documentation.md content/0_documentation.md",
+            "cp basecontent/beginners.md content/00-intro.md",
+            "cp basecontent/starters-cover.jpg assets/cover.jpg",
+            "cd content && xargs rm < ../basecontent/advancedfiles.txt",
+            "cd content && mv installation.md 01-installation.md",
             "cd content && sed 's/\\/docs\\/{{version}}\\//#/g' *.md  > book",
             "cd content && rm *.md",
             "cd content && mv book book.md",
-            "ibis build"
+            "ibis build",
+            "cd content && rm book.md",
+            "mv export/laravel-documentation-light.pdf build/laravel-starter-book.pdf"
         ]
     },
     "repositories":[
