@@ -21,4 +21,4 @@ This book gives you an overview of the more advanced parts of Laravel
 
 ## Please star 🌟
 
-🌟 If you like this repo or have downloaded one the files please star this repo, so we can keep track of the number of downloads of the files 🌟
+If you like this repo or have downloaded one the files please star 🌟 this repo, so we can keep track of the number of downloads of the files
