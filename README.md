@@ -8,7 +8,7 @@
 
 This repository is the source code of a little tool that creates a pdf book of the official Laravel documentation.  It pulls the latest version of the documentation and divides the documentation into two parts, creating two books.  
 
-## Laravel starter book
+## Laravel starter book ( 834 pages - v8.0 )
 
 This book gives you an overview of the basics of Laravel
 
