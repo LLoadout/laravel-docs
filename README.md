@@ -13,7 +13,7 @@ This book gives you an overview of the basics of Laravel
 
 [Download the starter book](https://github.com/LLoadout/laravel-docs/raw/main/build/laravel-starter-book.pdf)
 
-## Laravel advanced book ( work in progress )
+## Laravel advanced book ( 1071 pages - v8.0 )
 
 This book gives you an overview of the more advanced parts of Laravel
 
