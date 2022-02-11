@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "69311afb1516eeb3d434587650eac278",
+    "content-hash": "15bcf7ba763cc3906cec1021a9a852c1",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -377,11 +377,11 @@
         },
         {
             "name": "laravel/docs",
-            "version": "8.0",
+            "version": "9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/docs.git",
-                "reference": "8.x"
+                "reference": "9.x"
             },
             "type": "library"
         },
