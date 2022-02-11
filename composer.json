@@ -54,11 +54,11 @@
             "type": "package",
             "package": {
                 "name": "laravel/docs",
-                "version": "9.0",
+                "version": "8.0",
                 "source": {
                     "url": "https://github.com/laravel/docs.git",
                     "type": "git",
-                    "reference": "master"
+                    "reference": "8.x"
                 }
             }
         }
